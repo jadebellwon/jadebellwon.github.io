@@ -1,4 +1,64 @@
 baseURL: https://jadebellwon.github.io/
 languageCode: ko-kr
-title: My New Hugo Site
+title: Jade.wav
 theme: hextra
+
+enableRobotsTXT: true
+enableEmoji: true
+
+# 구문 강조 (Code Highlighting) 설정
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # 이 부분이 true여야 HTML 위젯이 보입니다.
+  highlight:
+    noClasses: false
+
+# Hextra 전용 파라미터 설정
+params:
+  # 1. 상단 내비게이션 바 설정
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logoPath: "images/logo.png" # static/images/logo.png 에 파일이 있어야 함
+    width: "auto"
+    # 우측 상단 깃허브 아이콘 및 링크
+    extra:
+      link: "https://github.com/jadebellwon/jadebellwon.github.io/" 
+      icon: "github"
+
+  # 2. 검색 기능 활성화 (Hextra의 강력한 기능!)
+  search:
+    enable: true
+    type: "flexsearch"
+
+  # 4. 페이지 하단 '이 페이지 수정하기' 링크
+  editURL:
+    enable: true
+    base: "https://github.com/jadebellwon/jadebellwon.github.io/edit/main/content"
+
+  # 5. 푸터(Footer) 설정
+  footer:
+    enable: true
+    displayCopyright: true
+    copyright: "© 2025 정원. Powered by Hugo & Hextra."
+
+  # 6. 블로그(게시판) 설정
+  blog:
+    listType: "cards" # 글 목록을 카드 형태로 표시 (옵션: normal, cards)
+
+# 메뉴 구성 (상단 메뉴바)
+menu:
+  main:
+    - identifier: "Dev"
+      name: "DEVELOP"
+      url: "/dev/"
+      weight: 1
+    - identifier: "Info"
+      name: "INFOMATION"
+      url: "/info/"
+      weight: 2
+    - identifier: "Life"
+      name: "LIFE"
+      url: "/life/"
+      weight: 3

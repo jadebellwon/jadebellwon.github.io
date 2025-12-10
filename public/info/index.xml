@@ -1,16 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jade.wav – Jade.wav</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Jade.wav</description>
+    <title>Jade.wav – Information</title>
+    <link>http://localhost:1313/info/</link>
+    <description>Recent content in Information on Jade.wav</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Wed, 10 Dec 2025 20:55:27 +0900</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/info/index.xml" rel="self" type="application/rss+xml" />
     
     
       
+        
       
     
     
