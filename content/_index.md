@@ -13,8 +13,9 @@ description: ""
 듣고 싶은 이야기를 선택해 주세요.
 {{< cards >}}
 {{< card link="/dev" title="💻 Track 01. Develop" subtitle="개발과 시행착오, 성장의 기록" >}}
-{{< card link="/info" title="ℹ️ Track 02. Information" subtitle="수집하고 정리한 기록 (Output)" >}}
-{{< card link="/life" title="☕ Track 03. Life" subtitle="카페, 게임, 그리고 휴식 (Input)" >}}
+{{< card link="/info" title="ℹ️ Track 02. Information" subtitle="수집하고 정리한 기록" >}}
+{{< card link="/life" title="🛍️ Track 03. Review" subtitle="장소, 소비의 기록" >}}
+{{< card link="/life" title="☕ Track 04. Life" subtitle="일상, 게임, 그리고 휴식" >}}
 {{< /cards >}}
 
 ## 💿 Heavy Rotation
@@ -36,7 +37,7 @@ description: ""
   
   <!-- 텍스트 내용 -->
   <div style="color: #495057; font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
-    금융 공기업을 위주로 취업 준비 중입니다.<br>
+    금융 공기업을 중심으로 취업 준비 중입니다.<br>
     커피, 누군가 정성껏 가꾼 공간들과 글을 쓰는 행위를 좋아합니다.
   </div>
 

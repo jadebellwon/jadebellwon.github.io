@@ -58,7 +58,11 @@ menu:
       name: "INFOMATION"
       url: "/info/"
       weight: 2
+    - identifier: "Review"
+      name: "REVIEW"
+      url: "/review/"
+      weight: 3
     - identifier: "Life"
       name: "LIFE"
       url: "/life/"
-      weight: 3
+      weight: 4
